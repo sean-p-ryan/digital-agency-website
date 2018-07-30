@@ -229,7 +229,7 @@ button:hover {
 
 .parallax {
 	background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
-	url(../images/phone-on-table.jpeg);
+	url(../Images/phone-on-table.jpeg);
 	background-size: 100%;
 	background-attachment: fixed;
     background-position: center;
