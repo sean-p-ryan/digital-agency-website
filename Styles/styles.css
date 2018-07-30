@@ -9,8 +9,7 @@
 	background-color: #eee;
 	color: #fff;
 	max-width: 100%;
-	/*line-height: 1.6em;*/
-	/*margin: 0 auto;*/
+	margin: 0;
 }
 
 h1, h2, h3 {
@@ -22,6 +21,17 @@ p {
 	color: #A6A7AA;
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 15px;
+}
+
+button {
+	background-color: #fff;
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+button:hover {
+	background-color: #D3D3D3;
+	cursor: pointer;
 }
 
 /* ICONS */
@@ -82,7 +92,12 @@ p {
 } 
 
 .main-nav li {
-	margin: 45px;
+	margin: 30px;
+	padding: 0 5px;
+}
+
+.main-nav li:hover {
+	font-style: italic;
 }
 
 .main-nav a {
@@ -92,11 +107,6 @@ p {
 
 .main-title-container {
 	width: 100%;
-	/*text-align: center;*/
-	/*margin-top: 300px;*/
-/*	display: flex;
-	margin-top: 300px;
-	justify-content: center;*/
 	margin-top: 30vh;
 }
 
@@ -137,16 +147,18 @@ p {
 	/*text-decoration: bold;*/
 }
 
-/*.what-we-done {
-	min-height: 1000px;
-}*/
-
 .section-head {
 	/*margin-top: 500px;*/
+	font-size: 2em;
 	min-height: 140px;
 	text-align: center;
-	width: 35%;
+	width: 70%;
 	margin: 100px auto 75px auto;
+}
+
+.section-head p {
+	font-size: 30px;
+	font-style: bold;
 }
 
 .work-examples {
@@ -167,6 +179,15 @@ p {
 
 .peperoni-banana, .face-story, .everyone-clapping {
 	width: 350px;
+}
+
+.work-examples button {
+	font-size: 15px;
+	width: 150px;
+	height: 50px;
+	margin-top: 5px;
+	border-radius: 5px;
+	/*text-decoration: bold;*/
 }
 
 .read-more {
@@ -193,10 +214,10 @@ p {
 	width: 100%;
 }
 
-#like-that, #like-that-text {
+#like-that, #give-it-to-you {
 	background: #54BCCF;
-	color: #fff;
 }
+
 
 .box-text {
 	width: 90%;
@@ -363,30 +384,29 @@ blockquote {
 footer {
 	background: #d3d3d3;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	color: #fff;	
 	/*align-items: center;*/
 }
 
-footer {
-	/*height: 450px;*/
-	font-size: 30px;
-	color: #fff;	
-}
-
-footer li {
-	margin-bottom: 25px;
-}
-
-.footer-list-1, .footer-list-2, .footer-list-3 {
-	margin-top: 40px;
+.footer-list-1 {
+	margin-top: 12px;
 	padding: 0;
-	margin-left: auto;
-	margin-right: auto;
 	display: flex;
 	flex-direction: column;
 	font-style: normal;
-	font-size: 23px;
+	font-size: 18px;
+	align-content: flex-end;
+}
+
+.footer-list-2, .footer-list-3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer-list-2 .footer-list-3, div {
+	margin-top: 10px;
+	font-style: normal;
 }
 
 .social-badges {
@@ -394,7 +414,12 @@ footer li {
 	margin: 0;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+}
+
+.social-badges a {
+	margin-right: 20px;
+	margin-left: 0px;
+	padding: 0;
 }
 
 #social-badge-icon {
@@ -403,8 +428,7 @@ footer li {
 }
 
 .location {
-	margin: 30px 0;
-	/*margin: 0;*/
+	margin: 0;
 }
 
 #footer-company-name {
@@ -426,7 +450,7 @@ footer li {
 }
 
 .footer-logo {
-	margin: 20px 0 25px 0;
+	margin: 20px 0 0 0;
 }
 
 
