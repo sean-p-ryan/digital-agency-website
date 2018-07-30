@@ -10,6 +10,7 @@
 	color: #fff;
 	max-width: 100%;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 h1, h2, h3 {
@@ -103,6 +104,28 @@ button:hover {
 .main-nav a {
 	text-decoration: none;
 	color: #fff;
+}
+
+.mobile-button {
+	display: none;
+}
+
+@media (max-width: 600px) {
+	.mobile-button {
+		display: inline-block;
+		float: left;
+		padding: 5px 10px;
+		color: #fff;
+	}
+
+	.main-nav {
+		border: none;
+	}
+
+	.main-nav ul {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 .main-title-container {
@@ -214,8 +237,16 @@ button:hover {
 	width: 100%;
 }
 
+.how-we-do-box:hover {
+
+}
+
 #like-that, #give-it-to-you {
 	background: #54BCCF;
+}
+
+#give-it-to-you-text, #do-it-like-that-text {
+	color: white;
 }
 
 
