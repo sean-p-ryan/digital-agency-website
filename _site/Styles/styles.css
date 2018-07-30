@@ -1,0 +1,453 @@
+* {
+	margin: 0 auto;
+	/*max-width: 100vw;*/
+	overflow-x: hidden;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.container {
+	background-color: #eee;
+	color: #fff;
+	max-width: 100%;
+	/*line-height: 1.6em;*/
+	/*margin: 0 auto;*/
+}
+
+h1, h2, h3 {
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+	color: #A6A7AA;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+}
+
+/* ICONS */
+
+.fa,.fas {
+	color: #000;
+	width: inherit;
+	margin: auto;
+}
+
+
+#how-we-do-icons {
+	height: 50px;
+}
+
+.pricing-icon-box {
+	height: 30%;
+	position: relative;
+}
+
+#pricing-icon {
+	position: absolute;
+	bottom: 13%;
+    left: 15%;
+}
+
+#pricing-icon-professional {
+	position: absolute;
+	bottom: 13%;
+    left: 15%;
+	color: #000080;
+}
+
+/* HEADER */
+
+.main-header {
+	background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
+	url("../Images/sup-brah-background.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-color: rgba(200,100,0,.5);*/
+	min-height: 100vh;
+}
+
+.main-nav {
+	height: 60px;
+	width: 100vw;
+	position: fixed;
+	border-bottom: 1px solid white;
+}
+
+.main-nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	height: inherit;
+} 
+
+.main-nav li {
+	margin: 45px;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.main-title-container {
+	width: 100%;
+	/*text-align: center;*/
+	/*margin-top: 300px;*/
+/*	display: flex;
+	margin-top: 300px;
+	justify-content: center;*/
+	margin-top: 30vh;
+}
+
+.main-title-text {
+	display: flex;
+	/*margin: auto;*/
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.main-title-text h1 {
+	font-size: 72px;
+	color: #fff;
+}
+
+.main-title-text p {
+	font-size: 27px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #d3d3d3;
+	margin: 0;
+}
+
+
+.watch-us {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.watch-us button {
+	background-color: #fff;
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	width: 200px;
+	height: 50px;
+	margin: 50px auto;
+	/*text-decoration: bold;*/
+}
+
+/*.what-we-done {
+	min-height: 1000px;
+}*/
+
+.section-head {
+	/*margin-top: 500px;*/
+	min-height: 140px;
+	text-align: center;
+	width: 35%;
+	margin: 100px auto 75px auto;
+}
+
+.work-examples {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 80px;
+	height: 480px;
+	position: relative;
+}
+
+.work-examples h3, p {
+	margin-top: 15px;
+}
+
+.work-examples img {
+	height: 270px;
+}
+
+.peperoni-banana, .face-story, .everyone-clapping {
+	width: 350px;
+}
+
+.read-more {
+	position: absolute;
+	bottom: 0;
+	font-size: ;
+}
+
+/* HOW WE DO */
+
+.how-we-do-container {
+	/*margin-top: 20px;*/
+	height: 450px;
+	max-width: 80%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 3px;
+    grid-column-gap: 3px;
+}
+
+.how-we-do-box {
+	background: #fff;
+	width: 100%;
+}
+
+#like-that, #like-that-text {
+	background: #54BCCF;
+	color: #fff;
+}
+
+.box-text {
+	width: 90%;
+    margin-left: 11%;
+    margin-top: 11%;
+}
+
+/*PARALLAX*/
+
+.parallax {
+	background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
+	url(../images/phone-on-table.jpeg);
+	background-size: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 500px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.parallax-text {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.parallax-text h1 {
+	color: #fff;
+	font-size: 50px;
+}
+
+.parallax-text p {
+	/*color: #f3f3f3;*/
+	font-weight: bold;
+	font-size: 17px;
+	color: #fff;
+
+}
+
+/* WHO WE BE */
+
+.who-we-be-container {
+	text-align: center;
+	max-width: 87%;
+	max-height: 1000px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 3px;
+    grid-column-gap: 3px;
+}
+
+.who-we-be-box img {
+	width: 80%;
+	border-radius: 20px;
+}
+
+.who-we-be-box p {
+	width: 70%;
+}
+
+/* PRICING */
+
+.pricing-container {
+	display: flex;
+	color: #A6A7AA;
+	height: 600px;
+	max-width: 100%;
+	/*text-align: left;*/
+	/*vertical-align: center;*/
+	justify-content: center;
+	align-items: center;
+}
+
+.pricing-box-text {
+	width: 70%;
+	margin: auto;
+}
+
+.pricing-box {
+	background: #fff;
+	height: 80%;
+	border: 1px solid #D3D3D3;
+	margin: 0 2px;
+	overflow-y: hidden;
+}
+
+#pricing-box-professional {
+	height: 95%;
+}
+
+.pricing-features {
+	font-weight: bold;
+	color: #000;
+	font-size: 14px;
+	margin-left: 6%;
+	margin-top: 16px;
+}
+
+.pricing-features li {
+	margin-bottom: 5px;
+}
+
+.pricing-features li:before {
+	content: "-  ";
+	color: #000080;
+	font-weight: bold;
+	size: 13px;
+}
+
+.choose {
+	height: 50px;
+	width: 150px;
+	margin-top: 20px;
+	margin-left: 13%;
+	border: none;
+	color: #D3D3D3;
+}
+
+.choose p {
+	color: #000;
+	font-weight: bold;
+	margin: auto;
+}
+
+/* CUSTOMER REVIEWS */
+
+.customer-reviews-container {
+	/*display: inline;*/
+	height: 500px;
+	background: #fff;
+	margin-top: 175px;
+}
+
+.customer-reviews {
+	margin-left: 100px;
+	margin-top: 100px;
+	width: 40%;
+}
+
+#quote-icon {
+	display: inline;
+}
+
+blockquote {
+	margin-top: 20px;
+	color: #A6A7AA;
+	background-image: url('images/quote-left.svg');
+	background-size: 35px;
+	background-repeat: no-repeat;
+}
+
+.customer-reviews p {
+	margin-left: 10%;
+}
+
+footer {
+	background: #d3d3d3;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/*align-items: center;*/
+}
+
+footer {
+	/*height: 450px;*/
+	font-size: 30px;
+	color: #fff;	
+}
+
+footer li {
+	margin-bottom: 25px;
+}
+
+.footer-list-1, .footer-list-2, .footer-list-3 {
+	margin-top: 40px;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	font-style: normal;
+	font-size: 23px;
+}
+
+.social-badges {
+	width: 400px;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#social-badge-icon {
+	margin-left: 0px;
+	/*height: 20px;*/
+}
+
+.location {
+	margin: 30px 0;
+	/*margin: 0;*/
+}
+
+#footer-company-name {
+	font-weight: bold;
+	color: #000;
+	margin: 20px 0 25px 0;
+}
+
+.location p {
+	margin-top: 6px;
+	font-size: 23px;
+	color: #fff;
+	/*margin: 0;*/
+}
+
+.location a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-logo {
+	margin: 20px 0 25px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
