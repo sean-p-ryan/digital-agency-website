@@ -97,15 +97,20 @@ a:hover {
 	color: #fff;
 }
 
-.main-nav {
+.mobile-nav {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	display: none;
+}
+
+.mobile-nav-open {
 	display: flex;
-	border: none;
 }
 
 .main-nav {
 	display: none;
 }
-
 
 
 @media (min-width: 950px) {
