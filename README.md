@@ -4,3 +4,4 @@ Loosely based on this template: http://www.free-css.com/free-css-templates/page2
 Run Jekyll site locally:
 $cd {local repo root directory}
 $bundle exec jekyll serve
+Runs at http://localhost:4000/
