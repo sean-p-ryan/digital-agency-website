@@ -1,0 +1,34 @@
+.how-we-do-container {
+	/*margin-top: 20px;*/
+	height: 450px;
+	max-width: 80%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 3px;
+    grid-column-gap: 3px;
+}
+
+.how-we-do-box {
+	background: #fff;
+	width: 100%;
+}
+
+.how-we-do-box:hover {
+
+}
+
+#like-that, #give-it-to-you {
+	background: #54BCCF;
+}
+
+#give-it-to-you-text, #do-it-like-that-text {
+	color: white;
+}
+
+
+.box-text {
+	width: 90%;
+    margin-left: 11%;
+    margin-top: 11%;
+}

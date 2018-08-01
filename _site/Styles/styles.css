@@ -1,3 +1,5 @@
+/*GLOBAL STYLES*/
+
 * {
 	margin: 0 auto;
 	/*max-width: 100vw;*/
@@ -70,26 +72,23 @@ a:hover {
 	color: #000080;
 }
 
-/* HEADER */
+/* MAIN SECTION */
 
-.main-header {
+/*.main-header {
 	background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
 	url("../Images/sup-brah-background.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	/*background-color: rgba(200,100,0,.5);*/
 	min-height: 100vh;
-}
+}*/
 
 /* MOBILE NAV*/
 
-.mobile-button {
+/*.mobile-button {
 	display: inline;
 	float: left;
 	padding: 5px 10px;
 	color: #fff;
-		/*width: 10%;
-		height: 10%;*/
 	}
 
 .mobile-button img {
@@ -110,57 +109,15 @@ a:hover {
 
 .main-nav {
 	display: none;
-}
+}*/
 
-
-@media (min-width: 950px) {
-	.main-nav {
-	display: flex;
-	height: 60px;
-	width: 100vw;
-	position: fixed;
-	border-bottom: 1px solid white;
-}
-
-.main-nav ul {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-end;
-	height: inherit;
-} 
-
-.main-nav li {
-	margin: 30px;
-	padding: 0 5px;
-}
-
-.main-nav li:hover {
-	font-style: italic;
-}
-
-.main-nav a {
-	text-decoration: none;
-	color: #fff;
-}
-
-.mobile-button {
-	display: none;
-}
-.mobile-nav {
-	display: none;
-	}
-	
-}
-
-.main-title-container {
+/*.main-title-container {
 	width: 100%;
 	margin-top: 30vh;
 }
 
 .main-title-text {
 	display: flex;
-	/*margin: auto;*/
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
@@ -193,11 +150,9 @@ a:hover {
 	height: 50px;
 	margin: 50px auto;
 	border-radius: 10px;
-	/*text-decoration: bold;*/
-}
+}*/
 
-.section-head {
-	/*margin-top: 500px;*/
+/*.section-head {
 	font-size: 2em;
 	min-height: 140px;
 	text-align: center;
@@ -216,9 +171,9 @@ a:hover {
 	margin-bottom: 80px;
 	height: 480px;
 	position: relative;
-}
+}*/
 
-.work-examples h3, p {
+/*.work-examples h3, p {
 	margin-top: 15px;
 }
 
@@ -236,19 +191,17 @@ a:hover {
 	height: 50px;
 	margin-top: 5px;
 	border-radius: 5px;
-	/*text-decoration: bold;*/
 }
 
 .read-more {
 	position: absolute;
 	bottom: 0;
 	font-size: ;
-}
+}*/
 
 /* HOW WE DO */
 
-.how-we-do-container {
-	/*margin-top: 20px;*/
+/*.how-we-do-container {
 	height: 450px;
 	max-width: 80%;
 	display: grid;
@@ -280,11 +233,11 @@ a:hover {
 	width: 90%;
     margin-left: 11%;
     margin-top: 11%;
-}
+}*/
 
 /*PARALLAX*/
 
-.parallax {
+/*.parallax {
 	background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
 	url(../Images/phone-on-table.jpeg);
 	background-size: 100%;
@@ -314,16 +267,14 @@ a:hover {
 }
 
 .parallax-text p {
-	/*color: #f3f3f3;*/
 	font-weight: bold;
 	font-size: 17px;
 	color: #fff;
-
-}
+}*/
 
 /* WHO WE BE */
 
-.who-we-be-container {
+/*.who-we-be-container {
 	text-align: center;
 	max-width: 87%;
 	max-height: 1000px;
@@ -341,17 +292,15 @@ a:hover {
 
 .who-we-be-box p {
 	width: 70%;
-}
+}*/
 
 /* PRICING */
 
-.pricing-container {
+/*.pricing-container {
 	display: flex;
 	color: #A6A7AA;
 	height: 600px;
 	max-width: 100%;
-	/*text-align: left;*/
-	/*vertical-align: center;*/
 	justify-content: center;
 	align-items: center;
 }
@@ -405,12 +354,11 @@ a:hover {
 	color: #000;
 	font-weight: bold;
 	margin: auto;
-}
+}*/
 
-/* CUSTOMER REVIEWS */
+/* REVIEWS */
 
-.customer-reviews-container {
-	/*display: inline;*/
+/*.customer-reviews-container {
 	height: 500px;
 	background: #fff;
 	margin-top: 175px;
@@ -436,13 +384,14 @@ blockquote {
 
 .customer-reviews p {
 	margin-left: 10%;
-}
+}*/
 
-footer {
+/* FOOTER */
+
+/*footer {
 	background: #d3d3d3;
 	display: flex;
 	color: #fff;	
-	/*align-items: center;*/
 }
 
 .footer-list-1 {
@@ -481,7 +430,6 @@ footer {
 
 #social-badge-icon {
 	margin-left: 0px;
-	/*height: 20px;*/
 }
 
 .location {
@@ -498,7 +446,6 @@ footer {
 	margin-top: 6px;
 	font-size: 23px;
 	color: #fff;
-	/*margin: 0;*/
 }
 
 .location a {
@@ -508,8 +455,58 @@ footer {
 
 .footer-logo {
 	margin: 20px 0 0 0;
+}*/
+
+/* DESKTOP */
+
+/*@media (min-width: 950px) {
+
+.main-header {
+	background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
+	url("../Images/sup-brah-background.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
 }
 
+	.main-nav {
+	display: flex;
+	height: 60px;
+	width: 100vw;
+	position: fixed;
+	border-bottom: 1px solid white;
+}
+
+.main-nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	height: inherit;
+} 
+
+.main-nav li {
+	margin: 30px;
+	padding: 0 5px;
+}
+
+.main-nav li:hover {
+	font-style: italic;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.mobile-button {
+	display: none;
+}
+.mobile-nav {
+	display: none;
+	}
+	
+}*/
 
 
 

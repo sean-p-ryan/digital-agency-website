@@ -1,0 +1,21 @@
+/* WHO WE BE */
+
+.who-we-be-container {
+	text-align: center;
+	max-width: 87%;
+	max-height: 1000px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 3px;
+    grid-column-gap: 3px;
+}
+
+.who-we-be-box img {
+	width: 80%;
+	border-radius: 20px;
+}
+
+.who-we-be-box p {
+	width: 70%;
+}

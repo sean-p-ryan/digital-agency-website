@@ -3,11 +3,10 @@ var mobileNav = document.querySelector('.mobile-nav'); // Access to mobile nav m
 
 function openMobile() {
 	mobileNav.classList.add('mobile-nav-open');
-	// mobileNav.style.display = 'flex';
 }
 
 function closeMobile() {
-	mobileNav.classList.remove('.mobile-nav-open');
+	mobileNav.classList.remove('mobile-nav-open');
 }
 
 mobileButton.addEventListener('click', openMobile);

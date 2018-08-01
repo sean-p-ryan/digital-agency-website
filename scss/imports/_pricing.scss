@@ -1,0 +1,61 @@
+/* PRICING */
+
+.pricing-container {
+	display: flex;
+	color: #A6A7AA;
+	height: 600px;
+	max-width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.pricing-box-text {
+	width: 70%;
+	margin: auto;
+}
+
+.pricing-box {
+	background: #fff;
+	height: 80%;
+	border: 1px solid #D3D3D3;
+	margin: 0 2px;
+	overflow-y: hidden;
+}
+
+#pricing-box-professional {
+	height: 95%;
+}
+
+.pricing-features {
+	font-weight: bold;
+	color: #000;
+	font-size: 14px;
+	margin-left: 6%;
+	margin-top: 16px;
+}
+
+.pricing-features li {
+	margin-bottom: 5px;
+}
+
+.pricing-features li:before {
+	content: "-  ";
+	color: #000080;
+	font-weight: bold;
+	size: 13px;
+}
+
+.choose {
+	height: 50px;
+	width: 150px;
+	margin-top: 20px;
+	margin-left: 13%;
+	border: none;
+	color: #D3D3D3;
+}
+
+.choose p {
+	color: #000;
+	font-weight: bold;
+	margin: auto;
+}
