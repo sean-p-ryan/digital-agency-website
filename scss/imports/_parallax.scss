@@ -14,7 +14,7 @@
 }
 
 .parallax-text {
-	width: 40%;
+	width: 80%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -22,9 +22,11 @@
 	text-align: center;
 }
 
-.parallax-text h1 {
-	color: #fff;
-	font-size: 50px;
+.parallax-text h2 {
+	color: $white-headers;
+		@media (min-width: $screen-width-mid){
+		font-size: 50px;
+		}
 }
 
 .parallax-text p {

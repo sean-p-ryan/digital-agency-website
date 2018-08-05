@@ -1,7 +1,6 @@
-/* MOBILE NAV*/
-
 .mobile-button {
 	display: inline;
+	position: fixed;
 	float: left;
 	padding: 5px 10px;
 	color: #fff;
@@ -14,60 +13,79 @@
 	color: #fff;
 }
 
-.mobile-nav {
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	display: none;
-}
-
-.mobile-nav-open {
-	display: flex;
-}
-
 .main-nav {
 	display: none;
 }
 
-.main-title-container {
-	width: 100%;
-	margin-top: 30vh;
-}
+@media (min-width: $screen-width-large) {
 
-.main-title-text {
-	display: flex;
-	/*margin: auto;*/
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
+	.mobile-button {
+		display: none;
+	}
 
-.main-title-text h1 {
-	font-size: 72px;
-	color: #fff;
-}
+	.mobile-nav {
+		display: none;
+	}
 
-.main-title-text p {
-	font-size: 27px;
-	font-family: 'Titillium Web', sans-serif;
-	color: #d3d3d3;
-	margin: 0;
-}
+	.main-nav {
+		display: flex;
+		height: 60px;
+		width: 100vw;
+		position: fixed;
+		border-bottom: 1px solid white;
+	}
+
+	.main-nav ul {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-end;
+		height: inherit;
+	} 
+
+	.main-nav li {
+		margin: 30px;
+		padding: 0 5px;
+	}
+
+	.main-nav li:hover {
+		font-style: italic;
+	}
+
+	.main-nav a {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.main-title-container {
+		width: 100%;
+		margin-top: 30vh;
+	}
+
+	.main-title-text {
+		display: flex;
+		/*margin: auto;*/
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
 
 
-.watch-us {
-	margin: 0 auto;
-	text-align: center;
-}
+	.watch-us {
+		margin: 0 auto;
+		text-align: center;
+	}
 
-.watch-us button {
-	background-color: #fff;
-	color: #000;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 15px;
-	width: 200px;
-	height: 50px;
-	margin: 50px auto;
-	border-radius: 10px;
-	/*text-decoration: bold;*/
+	.watch-us button {
+		background-color: #fff;
+		color: #000;
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 15px;
+		width: 200px;
+		height: 50px;
+		margin: 50px auto;
+		border-radius: 10px;
+		/*text-decoration: bold;*/
+	}
+
 }

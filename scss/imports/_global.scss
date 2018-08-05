@@ -12,10 +12,33 @@ h1, h2, h3 {
 	font-family: 'Titillium Web', sans-serif;
 }
 
+h2 {
+	font-size: 35px;
+	@media (min-width: $screen-width-small) {
+			font-size: 40px;
+		}
+	@media (min-width: $screen-width-mid) {
+			font-size: 64px;
+		}
+	@media (min-width: $screen-width-large) {
+			font-size: 75px;
+		}
+}
+
 p {
-	color: #A6A7AA;
-	font-family: 'Titillium Web', sans-serif;
 	font-size: 15px;
+	@media (min-width: $screen-width-small) {
+			font-size: 15px;
+		}
+	@media (min-width: $screen-width-mid) {
+			font-size: 20px;
+		}
+	@media (min-width: $screen-width-large) {
+			font-size: 22px;
+		}
+	color: $main-text-color;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 button {
@@ -42,22 +65,13 @@ a:hover {
 }
 
 .section-head {
-	font-size: 2em;
 	min-height: 140px;
 	text-align: center;
-	width: 70%;
-	margin: 100px auto 75px auto;
+	width: 90%;
+	margin: 50px auto 30px auto;
 }
 
 .section-head p {
-	font-size: 30px;
 	font-style: bold;
 }
 
-.work-examples {
-	display: flex;
-	flex-direction: row;
-	margin-bottom: 80px;
-	height: 480px;
-	position: relative;
-}

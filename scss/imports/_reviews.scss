@@ -1,15 +1,17 @@
 /* REVIEWS */
 
 .customer-reviews-container {
-	height: 500px;
+	margin-top: 0px;
+	@media (min-width: $screen-width-mid) {
 	background: #fff;
 	margin-top: 175px;
+	}
 }
 
 .customer-reviews {
 	margin-left: 100px;
-	margin-top: 100px;
-	width: 40%;
+	margin: 10px 10px 0 10px;
+	width: 70%;
 }
 
 #quote-icon {
@@ -17,7 +19,7 @@
 }
 
 blockquote {
-	margin-top: 20px;
+	margin-top: 10px;
 	color: #A6A7AA;
 	background-image: url('images/quote-left.svg');
 	background-size: 35px;
@@ -26,4 +28,5 @@ blockquote {
 
 .customer-reviews p {
 	margin-left: 10%;
+	margin-bottom: 10px;
 }

@@ -1,34 +1,57 @@
 .how-we-do-container {
-	/*margin-top: 20px;*/
-	height: 450px;
-	max-width: 80%;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	grid-row-gap: 3px;
-    grid-column-gap: 3px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	border: 1px solid $white-headers;
+	@media (min-width: $screen-width-large){
+		// height: 450px;
+		max-width: 80%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-row-gap: 3px;
+	    grid-column-gap: 3px;
+	}
+	
 }
 
 .how-we-do-box {
-	background: #fff;
+margin: 0;
+padding: 0;
+border-top: 1px solid $white-headers;
+// border-bottom: 1px solid $white-headers;
+	@media (min-width: $screen-width-mid){
+	background: $white-headers;
 	width: 100%;
+	}
 }
 
-.how-we-do-box:hover {
-
+#like-that, #make-it-real-good, #you-clap {
+	background: $blue-box-background;
+	text-color: $main-text-color;
 }
 
-#like-that, #give-it-to-you {
-	background: #54BCCF;
-}
+@media (min-width: $screen-width-large){
+	#give-it-to-you {
+		background: $blue-box-background;
+	}
+	#make-it-real-good, #you-clap {
+		background: $white-headers;
+	}
 
-#give-it-to-you-text, #do-it-like-that-text {
-	color: white;
 }
 
 
 .box-text {
+	width: 80%;
+	margin-bottom: 7%;
+	margin-top: 7%;
+	@media (min-width: $screen-width-mid){
+	margin-bottom: 10px;
 	width: 90%;
     margin-left: 11%;
     margin-top: 11%;
+}
 }
